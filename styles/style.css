@@ -53,7 +53,7 @@ body{
 
 .main-poub{
     min-height: 90vh;
-    background-image: url("/images/welkom-pub.png");
+    background-image: url("/images/poub-accueil.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
