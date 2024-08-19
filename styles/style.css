@@ -11,7 +11,9 @@ body{
     line-height: 1.5;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to center, rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(to center, rgba(0, 0, 0, 0.1)), url('/images/p6.png');
+    background-size: cover;
+    background-attachment: scroll;
 }
 /* about */
 .img-about{
@@ -49,6 +51,18 @@ body{
 /* contact */
 .contac-poub{
     text-align: center;
+}
+/* video */
+.containner-video{
+    margin: 0 auto;
+    width: 60vw;
+    height: auto;
+    padding: 2rem;
+}
+#video{
+    border-radius: 10px;
+    width: 50vw;
+    height: auto;
 }
 
 .main-poub{
