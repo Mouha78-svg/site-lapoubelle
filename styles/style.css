@@ -53,7 +53,7 @@ body{
 
 .main-poub{
     min-height: 90vh;
-    background-image: url("/images/poub-accueil.png");
+    background-image: url("/images/modify-accueil.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -61,6 +61,11 @@ body{
     place-items: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+@media screen  and (widht: 700px) {
+     .main-poub{
+        max-width: 30%;
+     }
 }
 .main-sous{
     max-width: 40vw;
